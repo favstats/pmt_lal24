@@ -2,7 +2,7 @@
 title: "Unveiling the Black Box"
 subtitle: "Researching Online Political Microtargeting"
 author: "<b>Fabio Votta</b> <i>(University of Amsterdam)</i>"
-date: '&nbsp;`r icons::icon_style(icons::fontawesome("link"),fill="black")`&nbsp;favstats.github.io/pollytix_pmt24 (Slides) <br> &nbsp;`r icons::icon_style(icons::fontawesome("twitter"),fill="blue")`&nbsp;favstats <br> &nbsp;`r icons::icon_style(icons::fontawesome("mastodon"),fill="#615ff7")`&nbsp;favstats@fosstodon.org <br> &nbsp;`r icons::icon_style(icons::fontawesome("square", style = "solid"),fill="#0085ff")`&nbsp;favstats &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16th July 2024 - Talk at pollytix '
+date: '&nbsp;`r icons::icon_style(icons::fontawesome("link"),fill="black")`&nbsp;favstats.github.io/pollytix_pmt24 (Slides) <br> &nbsp;`r icons::icon_style(icons::fontawesome("twitter"),fill="blue")`&nbsp;favstats <br> &nbsp;`r icons::icon_style(icons::fontawesome("mastodon"),fill="#615ff7")`&nbsp;favstats@fosstodon.org <br> &nbsp;`r icons::icon_style(icons::fontawesome("square", style = "solid"),fill="#0085ff")`&nbsp;favstats &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16th July 2024 - Lunch and Learn Talk at pollytix '
 output:
   xaringan::moon_reader:
     css: [ascor.css, default]
@@ -87,9 +87,9 @@ class: white, middle, center
   
   + R package `metatargetr`
   
-3. Global Contexts
+3. Global Contexts - Study 1
 
-4. Role of Algorithms
+4. Role of Algorithms - Study 2
     
 5. Q & A
 
@@ -375,7 +375,7 @@ class: white
   + keywords for political ads
   
 **Twitter** disallowed political ads in 2019
-  + were brought them back recently (2023)
+  + were back recently (2023)
   + detailed targeting possible (demographics, custom and lookalike audiences)
 
 ]
@@ -395,6 +395,15 @@ class: white
 
 
 ---
+
+class: center, middle
+
+### Sources of Data
+
+#### On Political Microtargeting
+
+---
+
 
 class: center, middle, white
 
@@ -439,6 +448,8 @@ class: middle, center
 + Ad Library (APIs)
 
 + Interviews
+
+  + ... just ask them?
 
 
 ---
@@ -512,7 +523,6 @@ class: white
 
 
 .pull-right[
-
 
 ![](https://favstats.github.io/targex/img/myth.jpg)
 ]
@@ -732,6 +742,13 @@ class: white
 
 ---
 
+class: white
+
+### Ad Library (APIs) 
+
+#### - and scraping
+
+---
 
 class: white
 
@@ -810,9 +827,6 @@ class: white
 
 .pull-left[
 
-+ **NEW** since August 2023 *only in EU* 
-  + age, gender, and location targeting criteria (thank you DSA!)
-  
 + In order to get access you need:
 
   + A **verified** Meta Developer account (i.e. you need to send in your ID to confirm identity 🤔)
@@ -820,6 +834,11 @@ class: white
   + The steps are outlined here: https://www.facebook.com/ads/library/api/
   
   + R package to access API: [`Radlibrary`](https://github.com/facebookresearch/Radlibrary)
+
++ **NEW** since August 2023 *only in EU* 
+  + age, gender, and location targeting criteria (thank you DSA!)
+  
+
 
 ]
 
@@ -1000,74 +1019,6 @@ knitr::include_graphics("https://github.com/favstats/metatargetr/raw/master/man/
 ]
 
 
-
-
----
-
-class: center, middle
-
-### Interviews
-
-#### ... just ask them?
-
-
----
-
-class: white
-
-### Interviews
-
-.pull-left[
-
-
-+ Interviews *(e.g. Kefford et al. 2023; Dommett et al. 2024)*
-
-  + campaign staff or platform employees
-  
-  + in-depth first-hand knowledge and qualitative data
-  
-]
-
-  
-.pull-right[
-
-![](https://pbs.twimg.com/media/F3kdUt-XAAAR_l7?format=jpg&name=small)
-
-]
-
-
----
-
-class: white
-
-### Interviews
-
-.pull-left[
-
-
-+ Interviews *(e.g. Kefford et al. 2023; Dommett et al. 2024)*
-
-  + campaign staff or platform employees
-  
-  + in-depth first-hand knowledge and qualitative data
-  
-  *however*
-  
-  + campaigns might not be willing to share information
-  
-  + who gets to have access to political parties?
-  
-]
-
-
-  
-.pull-right[
-
-![](https://pbs.twimg.com/media/F3kdUt-XAAAR_l7?format=jpg&name=small)
-
-]
-
-
 ---
 
 class: middle, center
@@ -1171,6 +1122,8 @@ class: middle, center
 
 
 **Laying the foundation for future microtargeting research**
+
+#### Study 1
 
 ---
 
@@ -1317,30 +1270,6 @@ class: white
 
 <img src="img/topinterests.png" width="72%">
 
-
----
-
-**So how do parties use political microtargeting?**
-
-+ Online political **targeting** is **common around the world**
-
-**However:**
-
-  + Most commonly using a single targeting criterion
-    
-  + Most commonly using location and socio-demographics (e.g. age)
-
-+ political microtargeting is used **by both left and right**
-
---
-
-+ parties **target** their respective **core audiences**
-
-  + i.e. concerns about a **fragmented public sphere** not unfounded *(Van der Meer, 2020)*
-      
-+ parties often target people already **interested in politics**
-
-  + i.e. concerns about **"political redlining"** not unfounded *(Howard, 2005)*
       
 ---
 
@@ -1366,16 +1295,15 @@ Votta, F., Kruschinski, S., Hove, M., Helberger, N., Dobber, T., & de Vreese, C.
 
 ---
 
-class: white
+class: middle, center
 
-![](img/algo1.png)
+### Algorithmic Microtargeting
 
----
+advertisers can set **targeting boundaries**
 
+**automated systems** decide which individual users get ads from which advertisers
 
-class: white
-
-![](img/algo2.png)
+#### Study 2
 
 ---
 
@@ -1502,22 +1430,6 @@ knitr::include_graphics("img/older.png")
   
 
 ---
-
-
-<!-- ### Prior Research into Ad Delivery Algorithms -->
-
-<!-- **Job ads and Housing** -->
-
-<!-- * Discrimination in Online Ad Delivery [(Sweeney, 2013)](https://doi.org/10.1145/2460276.2460278)  -->
-
-<!-- * Algorithmic bias? An empirical study of apparent gender-based discrimination in the display of stem career ads [(Lambrecht and Tucker, 2019)](https://doi.org/10.1287/mnsc.2018.3093)  -->
-
-<!-- * Auditing Race and Gender Discrimination in Online Housing Market [(Asplund et al., 2020)](https://ojs.aaai.org/index.php/ICWSM/article/view/7276)  -->
-
-<!-- * Auditing for Discrimination in Algorithms Delivering Job Ads [(Imana et al., 2021)](https://ant.isi.edu/datasets/addelivery/Discrimination-Job-Ad-Delivery.pdf)  -->
-
-<!-- --- -->
-
 
 
 class: white
@@ -1709,7 +1621,7 @@ class: center, white, middle
 
 ### Between-party differences
 
-$\rightarrow$ we consistently find one party that pays less and reaches more people 
+-> we consistently find one party that pays less and reaches more people 
 
 
 
@@ -1915,30 +1827,18 @@ H2: Party with greatest audience did not reach more or get cheaper prices
 
 + Unequal playing field
 
-  + Meta (dis-)advantages certain parties
-
-  +  the findings presented in this paper show that political parties were not charged the same price for the same service
-  
 --
 
 + Potential for deepening political, social and geographical inequalities 
-
-  + Some groups of people and regions are **systematically** less likely to receive political advertisements and more expensive to reach
-
-  + isolating these groups from receiving election-related information
 
 --
 
 + Little to no transparency by Meta about these systematic biases
 
-  + difficult to research and make visible instances of unequal treatment and price discrimination
-  + highlighting importance of access to data
-  
 --
   
 + Simply "banning" microtargeting would be inadequate
 
-  + more power to the black box algorithm
   
 ---
 
@@ -1948,19 +1848,19 @@ H2: Party with greatest audience did not reach more or get cheaper prices
 > So what could influence the prices that political parties pay?
 
 
-+ Page-Specific Variables
++ **Page-Specific Variables**
 
   + Past ad-spend
   
   + Number of Likes
   
-+ Party-Specific Variables
++ **Party-Specific Variables**
 
   + Overall Support
   
   + Specific supporter demographics more active
 
-+ Market-Context Variables
++ **Market-Context Variables**
 
   + Total money being spent on target audiences
 
@@ -1986,7 +1886,22 @@ class: white
 
 class: center, middle, white
 
-# Zooming out
+# What about AI?
+
+
+---
+
+
+
+<center>
+<img src="img/aipmt.png" width="90%" height="90%">
+</center>
+
+---
+
+class: center, middle, white
+
+# That's it!
 
 
 Hopefully you found the methods, studies, and results in this talk interesting!
@@ -2028,7 +1943,7 @@ Link to presentation: *favstats.github.io/pollytix_pmt24*
 
 ---
 
-class: center, middle
+class: center, middle, white
 
 ## Thank you for your attention! Questions?
 
@@ -3719,3 +3634,70 @@ We used 9 different (paired) targeting criteria for our advertisements
 ]
 
 ---
+
+
+
+---
+
+class: center, middle
+
+### Interviews
+
+#### ... just ask them?
+
+
+---
+
+class: white
+
+### Interviews
+
+.pull-left[
+
+
++ Interviews *(e.g. Kefford et al. 2023; Dommett et al. 2024)*
+
+  + campaign staff or platform employees
+  
+  + in-depth first-hand knowledge and qualitative data
+  
+]
+
+  
+.pull-right[
+
+![](https://pbs.twimg.com/media/F3kdUt-XAAAR_l7?format=jpg&name=small)
+
+]
+
+
+---
+
+class: white
+
+### Interviews
+
+.pull-left[
+
+
++ Interviews *(e.g. Kefford et al. 2023; Dommett et al. 2024)*
+
+  + campaign staff or platform employees
+  
+  + in-depth first-hand knowledge and qualitative data
+  
+  *however*
+  
+  + campaigns might not be willing to share information
+  
+  + who gets to have access to political parties?
+  
+]
+
+
+  
+.pull-right[
+
+![](https://pbs.twimg.com/media/F3kdUt-XAAAR_l7?format=jpg&name=small)
+
+]
