@@ -48,7 +48,7 @@ overview_day <- readRDS("../../phds/overview_day.rds")
 
 class: white, middle, center
 
-### .font80[Is Political Microtargeting Destroying Democracy? Or is it a Myth?]
+### .font80[Is Political Microtargeting Destroying Democracy?]
  
  
 <img src="img/cambridge_analytica.png" width="80%">
@@ -60,9 +60,6 @@ class: white, middle, center
 
 #### How does political microtargeting (PMT) manifest in practice?
 
-
-
-
 .pull-left[
 
 ![](img/diss.png)
@@ -72,7 +69,7 @@ class: white, middle, center
 
 .pull-right[
 
-![](https://pbs.twimg.com/media/F4y52W0XwAAM4rp?format=jpg&name=large)
+![](https://pbs.twimg.com/media/GLjdeIOW8AAOR7z?format=jpg&name=medium)
 
 ]
 
@@ -102,7 +99,20 @@ class: center, middle, white
 
 # Slides: favstats.github.io/pollytix_pmt24
 
-<img src="https://media.tenor.com/YuaZwKZxXgoAAAAM/write-that-down-taking-notes.gif" width = "60%">
+.pull-left[
+
+<img src="img/qr-code-fin.png" width = "80%">
+
+
+]
+
+
+.pull-right[
+
+<img src="https://media.tenor.com/YuaZwKZxXgoAAAAM/write-that-down-taking-notes.gif" width = "80%">
+
+
+]
 
 ---
 
@@ -206,6 +216,39 @@ Based on congruency between recipient and message:
 
 ---
 
+### Efficiency
+
+.pull-left[
+
++ Parties and political actors have limited resources
+
+  + need to **optimize**
+
++ Want go get the most "bang for their buck"
+
++ PMT allows them to focus on *persuadables* (Hersh, 2015)
+
++ Don't "waste" money on those less likely to vote (for you)
+
+
+]
+
+.pull-right[
+
+
+
+]
+
+--
+
+HOWEVER:
+
++ may lead to *"political" redlining* (Howard, 2005)
+
++ fragmentation of the public sphere *(Van der Meer, 2020)*
+
+---
+
 
 
 
@@ -229,7 +272,28 @@ et al., 2023; Endres, 2020; Krotzek, 2019; Tappin et al., 2023; Zarouali et al.,
 
 ]
 
---
+
+
+---
+
+### Effectiveness
+
+
++ In (field) experiments, tentative evidence suggests that microtargeted political ads are indeed effective (Dobber et al., 2020; Dobber
+et al., 2023; Endres, 2020; Krotzek, 2019; Tappin et al., 2023; Zarouali et al., 2022).
+
+
++ messages about abortion rights were most **effective in increasing vote share of women in competitive congressional districts** (Haenschen, 2022)
+
++ Krotzek (2019) and Zarouali et al. (2022) find that political ads tailored to match personality traits **enhance positive feelings towards candidates and increase persuasiveness**
+
+
+.pull-left[
+
+![](img/8x4sio.jpg)
+
+
+]
 
 .pull-right[
 
@@ -237,27 +301,6 @@ however: see also Coppock et al., 2020; Decker and Krämer, 2023 for more mixed 
 
 ]
 
----
-
-### Efficiency
-
-+ Parties and political actors have limited resources
-
-  + need to **optimize**
-
-+ Want go get the most "bang for their buck"
-
-+ PMT allows them to focus on *persuadables* (Hersh, 2015)
-
-+ Don't "waste" money on those less likely to vote (for you)
-
---
-
-HOWEVER:
-
-+ may lead to *"political" redlining* (Howard, 2005)
-
-+ fragmentation of the public sphere *(Van der Meer, 2020)*
 
 ---
 
@@ -361,19 +404,6 @@ class: center, middle, white
 
 ---
 
-class: center, middle, white
-
-![](https://imageio.forbes.com/specials-images/imageserve/6097d7ee81957044af68d9ce/0x0.jpg?format=jpg&width=1200)
-
----
-
-class: center, middle, white
-
-![](img/gYktqcsiAnhoXz74wM4rKC.jpg)
-
-
----
-
 
 class: white, middle, center
 
@@ -404,11 +434,300 @@ class: middle, center
 
 ### Three Sources of Data
 
-+ Ad Library (APIs)
-
 + Browser extensions
 
++ Ad Library (APIs)
+
 + Interviews
+
+
+---
+
+class: center, middle
+
+### Browser extensions
+
+#### Collaboration with Who Targets Me
+
+
+---
+
+
+
+class: white
+
+
+### Browser extensions
+
+
+.pull-left[
+
++ Browser extensions *(López Ortega, 2022; Silva et al., 2020)*
+
+  + Rely on the "Why am I seeing this ad" label 
+
+  + Who Targets Me, ProPublica, NYU Ad Observer, etc.
+
+  + Platform-independent way to retrieve data
+  
+  + enables measurements of effects
+
+]
+
+.pull-right[
+
+![](img/browsers.png)
+
+]
+
+
+---
+
+class: white
+
+### Browser extensions
+
+.pull-left[
+
+
++ Browser extensions *(López Ortega, 2022; Silva et al., 2020)*
+
+  + Rely on the "Why am I seeing this ad" label 
+
+  + Who Targets Me, ProPublica, NYU Ad Observer, etc.
+  
+  + Platform-independent way to retrieve data
+  
+  *however*
+  
+  + Risk of getting banned by platforms (NYU case 2021)
+  
+  + do not always correspond to the targeting criteria used by advertisers *(Andreou et al., 2018)*
+  
+  + who is more likely to sign-up for these browser applications?
+  
+  + only Desktop browsers
+
+]
+
+
+.pull-right[
+
+
+![](https://favstats.github.io/targex/img/myth.jpg)
+]
+
+---
+
+class: white
+
+## Who Targets Me - Tracking users to see how they are tracked
+
+.pull-left[
+![](https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-6/347786240_2021863554822518_1841185963787031595_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=sAf41Zt0PpMQ7kNvgFSn-AN&_nc_ht=scontent-fra3-1.xx&oh=00_AYBqH7Hjk3XPdQ8n0ViTTirTMbI1Peo3tRDURlY3ucqyzA&oe=669B1033)
+
+
+]
+
+.pull-right[
+![](https://whotargets.me/wp-content/uploads/2023/12/wtm_cartoon-1-1.png)
+]
+
+---
+
+class: white
+
+## Why Am I Seeing This
+
++  WTM scrapes the text from the ‘Why am I seeing this?’ label
+
+![](https://www.impactplus.com/hubfs/Screen%20Shot%202019-07-15%20at%202.11.21%20PM.png)
+
+
+---
+
+
+
+
+class: white
+
+### Who Targets Me
+
+
+.pull-left[
+
++ ZDF Magazin Royale collaborates with Who Targets Me (April 2021) 
+
++ 17k users in Germany sign up with WTM in the next months
+
++ only ~5k users (~30%) see political ads
+
++ 150k political ad impressions
+
++ I join the project end of July 2021
+
+]
+
+.pull-right[
+
+<img src="img/zdf_tweet.png" width="70%" height="70%">
+
+]
+
+
+
+
+---
+
+class: white
+
+### ZDF Magazine Royale Show 24. September 2021
+
+
+<img src="https://i3.ytimg.com/vi/8vq6MzGNZyM/maxresdefault.jpg" width="70%" height="70%">
+
+
+https://targetleaks.de/
+
+
+
+
+---
+
+class: white
+
+## Political Advertisers in Germany
+
+![](img/ad_impressions.png)
+
+---
+
+class: white
+
+## Bias in data - Gender
+
+--
+
+![](img/gender_bias.png)
+
+
+---
+
+class: white
+
+## Bias in data - Age
+
+
+![](img/age_bias.png)
+
+
+---
+
+
+class: white
+
+## Bias in data - Bundesland
+
+![](img/region_bias.png)
+
+
+---
+
+
+## Solution - Weighting
+
++ Weighting is a common procedure when working with survey data to enhance *representability* after data was collected
+
++ Detailed [blog post](https://www.pewresearch.org/decoded/2020/03/26/weighting-survey-data-with-the-pewmethods-r-package/) about how to use `pewmethods` for weighing
+
+![](img/pewresearch.png)
+
+
+---
+
+class: white
+
+### Weighting the data 
+
+#### according to German population metrics (using `pewmethods`)
+
+
+.pull-left[
+
+![](img/gender_weighted.png)
+
+
+]
+
+
+.pull-right[
+
+
+<br>
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+Link to Shiny app to explore results: [favstats.shinyapps.io/btw21_wtm/](https://favstats.shinyapps.io/btw21_wtm/)
+
+
+]
+
+---
+
+class: white
+
+### How common is targeting anyway?
+
+<img src="https://pbs.twimg.com/media/FAI_L3TXMAA192x?format=png&name=4096x4096" width="80%" height="80%">
+
+---
+
+class: white
+
+### Which targeting criteria did German parties use?
+
++ Parties often target **interest in their own party**
+
++ Parties often use **location targeting**
+
++ Parties make frequent use of **custom and lookalike audiences**
+
+--
+
+<img src="https://exponea.com/wp-content/uploads/2019/11/infographics_03-04.jpg" width="70%">
+
+
+
+---
+
+
+class: white
+
+### Targeting - CDU/CSU
+
+![](img/cdu_targeting.png)
+
+---
+
+
+class: white
+
+### Targeting - SPD
+
+![](img/spd_targeting.png)
 
 
 ---
@@ -459,16 +778,6 @@ class: white
   + mostly came into effect after Cambridge Analytica Scandal (in 2018)
 
   + some improvements to before
-  
-  *however*
-  
-  + inaccurate and lack targeting criteria 
-  
-      + *(Edelson et al., 2020; Leerssen et al., 2019)*
-  
-  + In the EU now provide additional info 
-  
-      + on Meta: targeting based on age, gender, location (*thank you DSA*)
   
 ]
 
@@ -501,13 +810,8 @@ class: white
 
 .pull-left[
 
-+ Meta Ad Library gives access to:
-
-  + Ads about social issues, elections or politics that have run in the past seven years
-
-  + You can get the text, run time (dates), spending, impressions (by age, gender, and location)
-  
-  + **NEW** since August 2023 *only in EU*: age, gender, and location targeting criteria (thank you DSA!)
++ **NEW** since August 2023 *only in EU* 
+  + age, gender, and location targeting criteria (thank you DSA!)
   
 + In order to get access you need:
 
@@ -697,288 +1001,6 @@ knitr::include_graphics("https://github.com/favstats/metatargetr/raw/master/man/
 
 
 
----
-
-class: center, middle
-
-### Browser extensions
-
-#### Collaboration with Who Targets Me
-
-
----
-
-
-
-class: white
-
-
-### Browser extensions
-
-
-.pull-left[
-
-+ Browser extensions *(López Ortega, 2022; Silva et al., 2020)*
-
-  + Rely on the "Why am I seeing this ad" label 
-
-  + Who Targets Me, ProPublica, NYU Ad Observer, etc.
-
-  + Platform-independent way to retrieve data
-  
-  + enables measurements of effects
-
-]
-
-.pull-right[
-
-![](img/browsers.png)
-
-]
-
-
----
-
-class: white
-
-### Browser extensions
-
-.pull-left[
-
-
-+ Browser extensions *(López Ortega, 2022; Silva et al., 2020)*
-
-  + Rely on the "Why am I seeing this ad" label 
-
-  + Who Targets Me, ProPublica, NYU Ad Observer, etc.
-  
-  + Platform-independent way to retrieve data
-  
-  *however*
-  
-  + Risk of getting banned by platforms (NYU case 2021)
-  
-  + do not always correspond to the targeting criteria used by advertisers *(Andreou et al., 2018)*
-  
-  + who is more likely to sign-up for these browser applications?
-  
-  + only Desktop browsers
-
-]
-
-
-.pull-right[
-
-
-![](img/browsers.png)
-]
-
----
-
-class: white
-
-## Who Targets Me - Tracking users to see how they are tracked
-
-.pull-left[
-![](https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-6/347786240_2021863554822518_1841185963787031595_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=sAf41Zt0PpMQ7kNvgFSn-AN&_nc_ht=scontent-fra3-1.xx&oh=00_AYBqH7Hjk3XPdQ8n0ViTTirTMbI1Peo3tRDURlY3ucqyzA&oe=669B1033)
-
-
-]
-
-.pull-right[
-![](https://whotargets.me/wp-content/uploads/2023/12/wtm_cartoon-1-1.png)
-]
-
----
-
-class: white
-
-## Why Am I Seeing This
-
-+  WTM scrapes the text from the ‘Why am I seeing this?’ label
-
-![](https://www.impactplus.com/hubfs/Screen%20Shot%202019-07-15%20at%202.11.21%20PM.png)
-
-
----
-
-
-
-
-class: white
-
-### Who Targets Me
-
-
-.pull-left[
-
-+ ZDF Magazin Royale collaborates with Who Targets Me (April 2021) 
-
-+ 17k users in Germany sign up with WTM in the next months
-
-+ only ~5k users (~30%) see political ads
-
-+ 150k political ad impressions
-
-+ I join the project end of July 2021
-
-]
-
-.pull-right[
-
-<img src="img/zdf_tweet.png" width="70%" height="70%">
-
-]
-
-
-
-
----
-
-class: white
-
-### ZDF Magazine Royale Show 24. September 2021
-
-
-<img src="https://i3.ytimg.com/vi/8vq6MzGNZyM/maxresdefault.jpg" width="70%" height="70%">
-
-
-https://targetleaks.de/
-
-
-
-
----
-
-class: white
-
-## Political Advertisers in Germany
-
-![](img/ad_impressions.png)
-
----
-
-class: white
-
-## Bias in data - Gender
-
---
-
-![](img/gender_bias.png)
-
-
----
-
-class: white
-
-## Bias in data - Age
-
-
-![](img/age_bias.png)
-
-
----
-
-
-class: white
-
-## Bias in data - Bundesland
-
-![](img/region_bias.png)
-
-
----
-
-
-## Solution - Weighting
-
-+ Weighting is a common procedure when working with survey data to enhance *representability* after data was collected
-
-+ Detailed [blog post](https://www.pewresearch.org/decoded/2020/03/26/weighting-survey-data-with-the-pewmethods-r-package/) about how to use `pewmethods` for weighing
-
-![](img/pewresearch.png)
-
-
----
-
-class: white
-
-### Weighting the data 
-
-#### according to German population metrics (using `pewmethods`)
-
-
-.pull-left[
-
-![](img/gender_weighted.png)
-
-
-]
-
-
-.pull-right[
-
-
-<br>
-
-<br>
-
-
-<br>
-
-
-<br>
-
-
-<br>
-
-
-<br>
-
-
-Link to Shiny app to explore results: [favstats.shinyapps.io/btw21_wtm/](https://favstats.shinyapps.io/btw21_wtm/)
-
-
-]
-
----
-
-class: white
-
-### How common is targeting anyway?
-
-<img src="https://pbs.twimg.com/media/FAI_L3TXMAA192x?format=png&name=4096x4096" width="80%" height="80%">
-
----
-
-class: white
-
-### Which targeting criteria did German parties use?
-
-+ Parties often target interest in their own party
-
-+ Parties often use location targeting
-
-+ Parties make frequent use of custom and lookalike audiences
-
----
-
-
-class: white
-
-### Targeting - CDU/CSU
-
-![](img/cdu_targeting.png)
-
----
-
-
-class: white
-
-### Targeting - SPD
-
-![](img/spd_targeting.png)
-
 
 ---
 
@@ -1161,23 +1183,9 @@ class: white
 
 ## Research Questions
 
-+ RQ1: Assessing the Scale
++ Assessing the Scale
 
   + **How prevalent is the use of political microtargeting** across the globe **and which targeting and exclusion strategies** do political campaigns employ?
-  
---
-
-<!-- How much money do political parties spend on targeted ads vs. ads that are targeted towards entire country?  -->
-
-<!-- Split up by country, party type and family/ideology. -->
-
-+ RQ2: Country differences
-
-  + How do different strategies of targeting and exclusion manifest across **countries**?
-
---
-
-+ RQ3: Party differences
 
   + How do different strategies of targeting and exclusion manifest across **parties**?
 
@@ -1186,95 +1194,20 @@ class: white
 <!-- 3.	how this differs by country/party type and family/ideology -->
 
 
----
 
-class: white
-
-## Target Sample
-
-.leftcol30[
-
-+ All **national-level** elections between *August 2020 and December 2022*
-
-+ We identified: 
-  + *132 countries* 
-  + *156 elections*
-  
-
-+ Only focus on **political parties and candidates**
-
-]
-
-<!-- **122 *national* elections** in **101 countries** between -->
-
-.rightcol70[
-![](img/worldmap_coverage2.png)
-
-]
-
----
-
-class: white
-
-## Methods
-
-.leftcol[
-
-+ data annotated & enhanced using the *Party Facts database* *(Döring & Regel 2019)*
-
-  + mainly based on Wikipedia
-  
-  + we hand-coded over 9k advertisers and 900+ parties
-  
-  + 100 top advertisers + 50 random sample per election
-  
-+ Multi-source matching 
-
-  + Wikipedia, Google data, also Who Targets Me
-
-+ self-tagging of political advertisers
-
-  + *Political party, candidate, politician, government official*
-  
-
-]
-
-
-.rightcol[
-
-<img src="img/pf.png" width="100%">
-]
 
 
 ---
 
-class: white
 
-## Sample Description
+class: middle, center
 
-.leftcol30[
+# Results
 
-+ All **national-level** elections between *August 2020 and December 2022*
-
-+ Time-frame: 3 months before election day
-
-
-+ Final sample: 
-  + **95 countries** 
-  + **113 elections** 
-  + 10 countries had no data (e.g. Russia, Iran)
-  + 27 countries no political advertisers (e.g. Venezuela, Niger)
-
-]
-
-<!-- **122 *national* elections** in **101 countries** between -->
-
-.rightcol70[
-![](img/worldmap_coverage25.png)
-
-]
+## Global Prevalence and Usage
 
 ---
+
 
 class: white
 
@@ -1287,61 +1220,6 @@ class: white
 + Median spent per country: **40k-207k** US Dollar
 
 + Total spent: **418m-643m** US Dollar
-
-
----
-
-class: white
-
-## Four Targeting and Exclusion Strategies
-
-<center>
-
-<img src="img/fourcats.png" width="85%">
-
-</center>
-
-
----
-
-
-
-
-class: white
-
-## Microtargeting: Combining Criteria
-
-
-.leftcol[
-
-We count targeting and exclusion combinations each time an additional criterion **reduces the audience size**
-
-0 criterias = all ages, all genders, entire country
-
-1 criterion = one interest audience
-
-2 criterias = one interest audiences in specific cities
-
-3 or more = 18-25 year olds, one interest audience in specific cities
-
-]
-
-.rightcol[
-
-<img src="img/fourcats.png" width="100%">
-
-]
-
-
-
----
-
-
-class: middle, center
-
-# Results
-
-## RQ1: Global Prevalence and Usage
 
 ---
 
@@ -1770,48 +1648,6 @@ class: center, middle
   
 + Pre-registered research design and hypotheses
 
----
-
-
-
-### Dependent Variables
-
-+ **Price per 1k users reached**
-
-  + this measure is an industry standard
-
-+ Unique users reached
-
-  + this measure is co-linear with the price
-  
----
-
-
-### Ad Relevance
-
-
-We theorize two different levels of (predicted) relevance:
-
---
-
-1. Relevant audience for party (i.e. source of ad)
-
---
-
-+ Ads from an environmentalist party more likely to be relevant for audience interested in environmentalism.
-
-<br>
-
---
-
-<ol start="2">
-  <li>Relevant audience for ad content (e.g. political message)</li>
-</ol>
-
-
---
-
-+ Political message likely to be relevant for people interested in politics
 
 ---
 
@@ -1832,127 +1668,6 @@ We theorize two different levels of (predicted) relevance:
 We expect that ads by party with a greater share of supporters are less expensive (H2)
 
 > **H2:** Parties with a greater share of supporters pay less for reaching 1000 users.
-
-
-
-
-
----
-
-### Targeting criteria (Sub-hypotheses for H1 & H2)
-
-
-We used 9 different (paired) targeting criteria for our advertisements
-
-.pull-left[
-
-1. Political interests
-2. Excluding political interest
-  
-
-<ol start="3">
-  <li>Higher educated audience</li>
-  <li>Lower educated audience</li>
-</ol>
-
-
-]
-
-.pull-right[
-
-**Relevant audiences for ad content**
-
-> Targeting political ads to **politically interested** and **higher-educated** audiences
-
-> *is less expensive* 
-
-> *deliver more* 
-
-> than targeting politically uninterested and lower-educated audiences. 
-
-
-]
-
----
-
-### Targeting criteria (Sub-hypotheses for H1 & H2)
-
-
-We used 9 different (paired) targeting criteria for our advertisements
-
-.pull-left[
-
-1. Political interests
-2. Excluding political interest
-  
-<ol start="3">
-  <li>Higher educated audience</li>
-  <li>Lower educated audience</li>
-</ol>
-
-<ol start="5">
-  <li>Environmental interests</li>
-  <li>Excluding environmental interests</li>
-</ol>
-
-<ol start="7">
-  <li>Economic interests</li>
-  <li>Excluding Economic interests</li>
-</ol>
-
-]
-
-.pull-right[
-
-
-**Relevant audience for party**
-
-
-> Targeting political ads to issues that party has issue ownership over
-
->  *is less expensive* 
-
->  *delivers more* 
-
-compared to other parties
-
-]
-
-
----
-
-
-### Targeting criteria (Sub-hypotheses for H1 & H2)
-
-
-We used 9 different (paired) targeting criteria for our advertisements
-
-.pull-left[
-
-1. Political interests
-2. Excluding political interest
-
-<ol start="3">
-  <li>Higher educated audience</li>
-  <li>Lower educated audience</li>
-</ol>
-
-<ol start="5">
-  <li>Environmental interests</li>
-  <li>Excluding environmental interests</li>
-</ol>
-
-<ol start="7">
-  <li>Economic interests</li>
-  <li>Excluding Economic interests</li>
-</ol>
-  
-<ol start="9">
-  <li>No Targeting</li>
-</ol>
-
-]
-
 
 
 ---
@@ -2155,9 +1870,6 @@ class: white, middle center
 
 
 
-
-
-
 ---
 
 class: center, middle
@@ -2173,9 +1885,7 @@ Our findings do not always align with expectations.
 
 H1: More "relevant" audiences were not always cheaper
 
-H2: More "relevant" audiences were not always reached more
-
-H3: Party with greatest audience did not reach more or get cheaper prices
+H2: Party with greatest audience did not reach more or get cheaper prices
 
 --
 
@@ -2190,15 +1900,12 @@ H3: Party with greatest audience did not reach more or get cheaper prices
 
 ### Limitations
 
-+ Only three political parties
+> Only three political parties
 
 + Study first-of-its-kind
 
   + needs more research!
   
-+ Relevance might need to be measured differently?
-
-+ We do not vary content.. although studies suggest this is important (Ali et al. 2021, 2022)
 
 
 ---
@@ -2318,6 +2025,18 @@ Link to presentation: *favstats.github.io/pollytix_pmt24*
 ]
 
 
+
+---
+
+class: center, middle
+
+## Thank you for your attention! Questions?
+
+Link to presentation: *favstats.github.io/pollytix_pmt24*
+
+<center>
+<img src="img/qr-code-fin.png" width="40%">
+</center>
 
 ---
 
@@ -3700,7 +3419,303 @@ class: white
   
   
 ![](img/democ2.png)
-  
+
 
 ---
 
+class: white
+
+## Target Sample
+
+.leftcol30[
+
++ All **national-level** elections between *August 2020 and December 2022*
+
++ We identified: 
+  + *132 countries* 
+  + *156 elections*
+  
+
++ Only focus on **political parties and candidates**
+
+]
+
+<!-- **122 *national* elections** in **101 countries** between -->
+
+.rightcol70[
+![](img/worldmap_coverage2.png)
+
+
+]
+
+---
+
+class: white
+
+## Methods
+
+.leftcol[
+
++ data annotated & enhanced using the *Party Facts database* *(Döring & Regel 2019)*
+
+  + mainly based on Wikipedia
+  
+  + we hand-coded over 9k advertisers and 900+ parties
+  
+  + 100 top advertisers + 50 random sample per election
+  
++ Multi-source matching 
+
+  + Wikipedia, Google data, also Who Targets Me
+
++ self-tagging of political advertisers
+
+  + *Political party, candidate, politician, government official*
+  
+
+]
+
+
+.rightcol[
+
+<img src="img/pf.png" width="100%">
+]
+
+
+---
+
+class: white
+
+## Sample Description
+
+.leftcol30[
+
++ All **national-level** elections between *August 2020 and December 2022*
+
++ Time-frame: 3 months before election day
+
+
++ Final sample: 
+  + **95 countries** 
+  + **113 elections** 
+  + 10 countries had no data (e.g. Russia, Iran)
+  + 27 countries no political advertisers (e.g. Venezuela, Niger)
+
+]
+
+<!-- **122 *national* elections** in **101 countries** between -->
+
+.rightcol70[
+![](img/worldmap_coverage25.png)
+
+]  
+
+---
+
+
+
+class: white
+
+## Four Targeting and Exclusion Strategies
+
+<center>
+
+<img src="img/fourcats.png" width="85%">
+
+</center>
+
+
+---
+
+
+
+
+class: white
+
+## Microtargeting: Combining Criteria
+
+
+.leftcol[
+
+We count targeting and exclusion combinations each time an additional criterion **reduces the audience size**
+
+0 criterias = all ages, all genders, entire country
+
+1 criterion = one interest audience
+
+2 criterias = one interest audiences in specific cities
+
+3 or more = 18-25 year olds, one interest audience in specific cities
+
+]
+
+.rightcol[
+
+<img src="img/fourcats.png" width="100%">
+
+]
+
+---
+
+
+---
+
+
+
+### Dependent Variables
+
++ **Price per 1k users reached**
+
+  + this measure is an industry standard
+
++ Unique users reached
+
+  + this measure is co-linear with the price
+  
+---
+
+
+### Ad Relevance
+
+
+We theorize two different levels of (predicted) relevance:
+
+--
+
+1. Relevant audience for party (i.e. source of ad)
+
+--
+
++ Ads from an environmentalist party more likely to be relevant for audience interested in environmentalism.
+
+<br>
+
+--
+
+<ol start="2">
+  <li>Relevant audience for ad content (e.g. political message)</li>
+</ol>
+
+
+--
+
++ Political message likely to be relevant for people interested in politics
+
+
+---
+
+### Targeting criteria (Sub-hypotheses for H1 & H2)
+
+
+We used 9 different (paired) targeting criteria for our advertisements
+
+.pull-left[
+
+1. Political interests
+2. Excluding political interest
+  
+
+<ol start="3">
+  <li>Higher educated audience</li>
+  <li>Lower educated audience</li>
+</ol>
+
+
+]
+
+.pull-right[
+
+**Relevant audiences for ad content**
+
+> Targeting political ads to **politically interested** and **higher-educated** audiences
+
+> *is less expensive* 
+
+> *deliver more* 
+
+> than targeting politically uninterested and lower-educated audiences. 
+
+
+]
+
+---
+
+### Targeting criteria (Sub-hypotheses for H1 & H2)
+
+
+We used 9 different (paired) targeting criteria for our advertisements
+
+.pull-left[
+
+1. Political interests
+2. Excluding political interest
+  
+<ol start="3">
+  <li>Higher educated audience</li>
+  <li>Lower educated audience</li>
+</ol>
+
+<ol start="5">
+  <li>Environmental interests</li>
+  <li>Excluding environmental interests</li>
+</ol>
+
+<ol start="7">
+  <li>Economic interests</li>
+  <li>Excluding Economic interests</li>
+</ol>
+
+]
+
+.pull-right[
+
+
+**Relevant audience for party**
+
+
+> Targeting political ads to issues that party has issue ownership over
+
+>  *is less expensive* 
+
+>  *delivers more* 
+
+compared to other parties
+
+]
+
+
+---
+
+
+### Targeting criteria (Sub-hypotheses for H1 & H2)
+
+
+We used 9 different (paired) targeting criteria for our advertisements
+
+.pull-left[
+
+1. Political interests
+2. Excluding political interest
+
+<ol start="3">
+  <li>Higher educated audience</li>
+  <li>Lower educated audience</li>
+</ol>
+
+<ol start="5">
+  <li>Environmental interests</li>
+  <li>Excluding environmental interests</li>
+</ol>
+
+<ol start="7">
+  <li>Economic interests</li>
+  <li>Excluding Economic interests</li>
+</ol>
+  
+<ol start="9">
+  <li>No Targeting</li>
+</ol>
+
+]
+
+---
